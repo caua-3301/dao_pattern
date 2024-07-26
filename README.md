@@ -1,2 +1,5 @@
-# dao_pattern
-Explore the dao design pattern on top of a Java application with MySQL and the JDBC API
+# CRUD com MySQL e Java, com o padrão DAO
+
+### Padrão DAO
+
+O padrão de projeto DAO (Data Access Object) é uma abordagem de design usada na programação de software para separar a lógica de acesso aos dados da lógica de negócios da aplicação. Ele permite que a aplicação interaja com um banco de dados ou qualquer outra fonte de dados de maneira abstrata e desacoplada. Aqui estão os principais pontos sobre o DAO: Abstração do Acesso a Dados: O DAO fornece uma interface abstrata para realizar operações de CRUD (Create, Read, Update, Delete) sobre uma fonte de dados, escondendo os detalhes específicos de implementação. Encapsulamento: Encapsula a complexidade e as particularidades do acesso a dados, oferecendo métodos simples e intuitivos para a aplicação utilizar.  Desacoplamento: A separação entre a lógica de negócios e a lógica de acesso a dados facilita a manutenção e a evolução do sistema, pois mudanças na forma como os dados são acessados não afetam a lógica de negócios.  Facilita Testes: Com o DAO, é mais fácil criar testes unitários, pois a lógica de acesso a dados pode ser facilmente simulada ou substituída por implementações de teste.  Reutilização de Código: Promove a reutilização de código ao centralizar as operações de acesso a dados em um único lugar.
